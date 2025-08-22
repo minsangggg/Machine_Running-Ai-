@@ -21,9 +21,21 @@ class StockInfo():
     
             
     def get_financial_statement(self):
-        pass
+        return f"""
+             ### Quarterly Income Statement
+{self.ticker.quarterly_income_stmt.loc[['Total Revenue', 'Gross Profit', 'Operating Income', 'Net Income']].to_markdown()}
+
+             ### Quarterly Balance Sheet
+{self.ticker.quarterly_balance_sheet.loc[['Total Assets', 'Total Liabilities Net Minority Interest', 'Stockholders Equity']].to_markdown()}
+
+             ### Quarterly Cash Flow
+{self.ticker.quarterly_cash_flow.loc[['Operating Cash Flow', 'Investing Cash Flow', 'Financing Cash Flow']].to_markdown()}
+        """
     
     
 if __name__=="__main__":
     stock=StockInfo("MSFT")
     print(stock.get_basic_info())
+    print(stock.get_financial_statement())
+
+
