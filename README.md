@@ -38,5 +38,15 @@
 - **AI/LLM**: LangChain, OpenAI API  
 
 ---
-
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange?logo=scikitlearn)
+![XGBoost](https://img.shields.io/badge/XGBoost-Boosting-green)
+![Logistic Regression](https://img.shields.io/badge/Logistic_Regression-Model-9cf)
+![Decision Tree](https://img.shields.io/badge/DecisionTree-Classifier-brightgreen)
+![Random Forest](https://img.shields.io/badge/RandomForest-Ensemble-darkgreen)
+![LightGBM](https://img.shields.io/badge/LightGBM-Boosting-lightgreen)
+![GridSearchCV](https://img.shields.io/badge/GridSearchCV-Optimization-yellow)
+![Gradient Boosting](https://img.shields.io/badge/Gradient_Boosting-ML-red)
+![Encoding](https://img.shields.io/badge/Encoding-OneHot%20%7C%20Label-lightgrey)
+![LangChain](https://img.shields.io/badge/LangChain-LLM-yellowgreen)
 
