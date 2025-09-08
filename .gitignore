@@ -1,3 +1,8 @@
 .env
 *.csv
 *.json
+*.Zone.Identifier
+*.png
+*.jpg
+*.zip
+
