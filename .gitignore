@@ -5,4 +5,7 @@
 *.png
 *.jpg
 *.zip
+*.bin
+*.sqlite3
+*.docx
 
