@@ -8,4 +8,5 @@
 *.bin
 *.sqlite3
 *.docx
+*.pickle
 
